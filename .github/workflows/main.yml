@@ -1,7 +1,7 @@
 name: Meu Workflow Simples
 on:
   schedule:
-    - cron: '/2 * * * *'
+    - cron: '13 23 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
